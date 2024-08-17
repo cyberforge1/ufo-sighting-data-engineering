@@ -6,7 +6,7 @@ This project involves the exploration and analysis of a Kaggle dataset on UFO si
 
 ## Links
 
-https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks
+https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 ## Questions for Dataset
 
