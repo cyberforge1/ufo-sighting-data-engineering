@@ -36,15 +36,12 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 - Anaconda
 - Python
-
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborne
-
 - SQLAlchemy
 - PostgreSQL
-
 - PySpark
 
 ## Data Summary
