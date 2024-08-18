@@ -10,27 +10,42 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 ## Questions for Dataset
 
-1) Where are UFO's most frequently sighted?
-2) What do most reported UFO's normally look like?
-3) What time are UFO's most commonly sighted?
-4) What is the standard duration of a sighting?
+### Explored
+1) Where are UFO's most often sighted?
+2) What does the number of UFO sightings look like over time?
+3) What is the geographic distribution of UFO sightings?
+4) Which locations have the highest number of sightings?
+5) What types of UFO's do people see by location?
+6) How do the amount of UFO sightings differ by year, month and day of the week?
+7) Can clustering of intensities reveal undiscovered patterns?
+8) What types(shapes) of UFO's are seen and for how long?
 
-6) Temporal analysis: trends over time?
-7) Clustering techniques to find patterns?
-8) Sentiment analysis on comments?
+### Location Specific - Australia (to explore)
 
+9) Where are UFO sightings most common in Australia?
+10) What is the most common time to see a UFO in Australia and where?
+11) How have the number of UFO sightings differed over time in Australia?
 
-## Build Strategy
+### Sentiment Analysis
 
-## Tech Stack
+12) Are comments after a UFO sightings more positive or negative on average?
+13) What are the most commonly used words after a UFO sightings?
+14) What are the commonalities between the profile of people that are involved in UFO sightings?
+
+## Technologies
 
 - Anaconda
 - Python
+
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborne
+
 - SQLAlchemy
 - PostgreSQL
+
+- PySpark
 
 ## Data Summary
 
