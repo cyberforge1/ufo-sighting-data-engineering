@@ -23,6 +23,11 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 ## Tech Stack
 
+- Anaconda
+- Pandas
+- NumPy
+- Matplotlib
+- Python
 
 ## Data Summary
 ```text
@@ -43,4 +48,3 @@ Do clusters of UFO sightings correlate with landmarks, such as airports or gover
 What are the most common UFO descriptions?
 
 ```
-
