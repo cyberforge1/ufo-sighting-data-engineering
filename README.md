@@ -16,6 +16,10 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 4) What is the standard duration of a sighting?
 5) Addition questions after dataset exploration
 
+6) Temporal analysis: trends over time?
+7) Clustering techniques to find patterns?
+8) Sentiment analysis on comments?
+
 
 ## Build Strategy
 
