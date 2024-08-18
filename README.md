@@ -34,8 +34,6 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 ## Technologies
 
-- Anaconda
-- Python
 - Pandas
 - NumPy
 - Matplotlib
