@@ -30,7 +30,7 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 - Python
 
 ## Data Summary
-```text
+
 UFO Sightings
 Reports of unidentified flying object reports in the last century
 
@@ -47,4 +47,3 @@ Are there any trends in UFO sightings over time? Do they tend to be clustered or
 Do clusters of UFO sightings correlate with landmarks, such as airports or government research centers?
 What are the most common UFO descriptions?
 
-```
