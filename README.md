@@ -31,6 +31,7 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 - NumPy
 - Matplotlib
 - SQLAlchemy
+- PostgreSQL
 
 ## Data Summary
 
