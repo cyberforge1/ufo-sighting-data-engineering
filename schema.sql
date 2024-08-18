@@ -18,3 +18,4 @@ DROP TABLE IF EXISTS ufo_sightings;
 
 SELECT * FROM ufo_sightings;
 
+ 
