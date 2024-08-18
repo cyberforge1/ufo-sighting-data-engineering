@@ -23,15 +23,14 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 ## Build Strategy
 
-1) Collect data
-
 ## Tech Stack
 
 - Anaconda
+- Python
 - Pandas
 - NumPy
 - Matplotlib
-- Python
+- SQLAlchemy
 
 ## Data Summary
 
