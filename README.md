@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 ## Questions for Dataset
 
-### Explored
+### Explored Questions
 1) Where are UFO's most often sighted?
 2) What does the number of UFO sightings look like over time?
 3) What is the geographic distribution of UFO sightings?
@@ -20,7 +20,7 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 7) Can clustering of intensities reveal undiscovered patterns?
 8) What types(shapes) of UFO's are seen and for how long?
 
-### Location Specific - Australia (to explore)
+### Location Specific - Australia 
 
 9) Where are UFO sightings most common in Australia?
 10) What is the most common time to see a UFO in Australia and where?
