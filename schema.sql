@@ -13,3 +13,8 @@ CREATE TABLE ufo_sightings (
     latitude FLOAT,
     longitude FLOAT
 );
+
+DROP TABLE IF EXISTS ufo_sightings;
+
+SELECT * FROM ufo_sightings;
+
