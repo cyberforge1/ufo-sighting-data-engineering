@@ -1,68 +1,51 @@
 import pandas as pd
 
-# File path
 file_path = './data/complete.csv'
 
-# Step 1: Read the file in chunks and preprocess
-chunk_size = 10000  # Define a chunk size
+chunk_size = 10000
 chunks = []
 
-# Loop through chunks
 for chunk in pd.read_csv(file_path, chunksize=chunk_size, on_bad_lines='skip'):
-    # Step 2: Remove rows with an inconsistent number of columns
-    # Assuming the expected number of columns is 11
     expected_columns = 11
     chunk = chunk[chunk.apply(lambda x: len(x) == expected_columns, axis=1)]
     
-    # Append the cleaned chunk to the list
     chunks.append(chunk)
 
-# Concatenate all chunks back into a single DataFrame
 df = pd.concat(chunks, ignore_index=True)
 
-# Step 3: Rename the columns as per the schema
 df.columns = [
     'datetime', 'city', 'state', 'country', 'shape',
     'duration (seconds)', 'duration (hours/min)', 'comments',
     'date posted', 'latitude', 'longitude'
 ]
 
-# Display the first few rows to check the result
 df.head()
 
-# Now you can continue with the data cleaning and transformation as planned
 
-# Convert 'datetime' to TIMESTAMP
 df['datetime'] = pd.to_datetime(df['datetime'], errors='coerce')
 
-# Convert 'date posted' to DATE
 df['date posted'] = pd.to_datetime(df['date posted'], errors='coerce').dt.date
 
-# Convert 'duration (seconds)' to FLOAT
 df['duration (seconds)'] = pd.to_numeric(df['duration (seconds)'], errors='coerce')
 
-# Convert 'latitude' and 'longitude' to FLOAT
+
 df['latitude'] = pd.to_numeric(df['latitude'], errors='coerce')
 df['longitude'] = pd.to_numeric(df['longitude'], errors='coerce')
 
-# Clean String Data
 df['city'] = df['city'].str.strip().str.title()
 df['state'] = df['state'].str.strip().str.upper()
 df['country'] = df['country'].str.strip().str.upper()
 
-# Keep 'duration (hours/min)' as a string
 df['duration (hours/min)'] = df['duration (hours/min)'].str.strip()
 
-# Handle Missing Values
 df.dropna(subset=['datetime', 'city', 'country'], inplace=True)
 
-# Remove Duplicates
 df.drop_duplicates(inplace=True)
 
-# Validate Latitude and Longitude
+
 df = df[(df['latitude'].between(-90, 90)) & (df['longitude'].between(-180, 180))]
 
-# Rename Columns to Match Database Schema
+
 df.rename(columns={
     'datetime': 'datetime',
     'city': 'city',
@@ -77,10 +60,8 @@ df.rename(columns={
     'longitude': 'longitude'
 }, inplace=True)
 
-# Preview the Cleaned DataFrame
 df.head()
 
-# Save Cleaned Data to a New CSV File
 cleaned_file_path = './data/cleaned_ufo_sightings.csv'
 df.to_csv(cleaned_file_path, index=False)
 

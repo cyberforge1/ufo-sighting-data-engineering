@@ -1,21 +1,12 @@
 
 
-1) Create a schema and database to store the data (local postgreSQL)
+1) Fix bug in pyspark pipeline
 
-* figure out necessary cleanings and transformations
+2) troubleshoot installation of nltk / execute sentiment analysis scripts
 
-2) Upload the data with a pipeline tool (ETL)
+3) Other interesting questions
 
-3) Explore the data with python, sql and create visualizations 
+4) Notebook for presentation
 
-4) Create a Jupyter Notebook Presentation with findings
+5) Powerpoint for presentation
 
-
-
-
-
-
-
-Additions 
-
-* Connect postgreSQL to redshift/ cloud analytical db?

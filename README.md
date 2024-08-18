@@ -14,7 +14,6 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 2) What do most reported UFO's normally look like?
 3) What time are UFO's most commonly sighted?
 4) What is the standard duration of a sighting?
-5) Addition questions after dataset exploration
 
 6) Temporal analysis: trends over time?
 7) Clustering techniques to find patterns?
