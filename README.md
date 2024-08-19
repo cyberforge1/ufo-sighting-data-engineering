@@ -23,7 +23,7 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 6) Based on historical data, what are the most likely places to see a UFO in Australia and at what time?
 7) What is the most common appearance of UFO's and for how long is each type seen?
 
-### Worldwide Reports Sentiment Analysis
+### Overall Sentiment Analysis
 
 8) Are the comments after a UFO sighting more negative or positive, on average?
 9) What are the 20 most frequently used words in comments after UFO sightings by witnesses?
