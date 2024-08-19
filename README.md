@@ -11,8 +11,6 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 ## Results
 
 ![global-ufo-sightings](graphs/global-ufo-sightings.png)
-<br>
-![top-ufo-places-and-times](graphs/top-ufo-places-and-times.png)
 
 
 ## Dataset Exploration
@@ -85,3 +83,13 @@ Are there any trends in UFO sightings over time? Do they tend to be clustered or
 Do clusters of UFO sightings correlate with landmarks, such as airports or government research centers?
 What are the most common UFO descriptions?
 ```
+
+## Contact Me
+- Visit my [LinkedIn](https://www.linkedin.com/in/obj809/) for more details.
+- Check out my [GitHub](https://github.com/cyberforge1) for more projects.
+- Or send me an email at obj809@gmail.com
+<br />
+Thanks for your interest in this project. Feel free to reach out with any thoughts or questions.
+<br />
+<br />
+Oliver Jenkins © 2024
