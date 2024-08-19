@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project develops an ETL pipeline using PySpark to extract, transform, clean, and load a Kaggle dataset on UFO sightings. Data analysis is peformed, including worldwide geograpical distribution, sentiment analysis of witness reports, and a section specific to Australia.
+This project develops an ETL pipeline using PySpark to extract, transform, clean, and load a Kaggle dataset on UFO sightings. Data analysis is peformed, including worldwide geograpical distribution, sentiment analysis of witness reports, and an Austalian specific section.
 
 ## Links
 
