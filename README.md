@@ -57,23 +57,6 @@ CREATE TABLE ufo_sightings (
     latitude FLOAT,
     longitude FLOAT
 );
-
-CREATE TABLE ufo_sightings_australia (
-    id SERIAL PRIMARY KEY,
-    datetime TIMESTAMP,
-    city VARCHAR(100),
-    state VARCHAR(50),
-    country VARCHAR(50),
-    shape VARCHAR(50),
-    duration_seconds FLOAT,
-    duration_hours_min VARCHAR(50),
-    comments TEXT,
-    date_posted DATE,
-    latitude FLOAT,
-    longitude FLOAT,
-    original_id INT,
-    FOREIGN KEY (original_id) REFERENCES ufo_sightings(id)
-);
 ```
 
 ## Summary of Dataset on Kaggle
