@@ -1,4 +1,4 @@
-# Where Are the Aliens? - Data Engineering & Analysis
+# UFO Sightings - Data Engineering & Analysis
 
 ## Project Overview
 
