@@ -8,29 +8,26 @@ This project involves the exploration and analysis of a Kaggle dataset on UFO si
 
 https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
-## Questions for Dataset
+## Dataset Exploration
 
-### Explored Questions
-1) Where are UFO's most often sighted?
-2) What does the number of UFO sightings look like over time?
-3) What is the geographic distribution of UFO sightings?
-4) Which locations have the highest number of sightings?
-5) What types of UFO's do people see by location?
-6) How do the amount of UFO sightings differ by year, month and day of the week?
-7) Can clustering of intensities reveal undiscovered patterns?
-8) What types(shapes) of UFO's are seen and for how long?
+### Worldwide UFO Reports
 
-### Location Specific - Australia 
+1) How does the frequency of UFO sightings differ over time?
+2) What is the geographic distribution of UFO sightings worldwide?
+3) Based on historical data, what are the most likely places to see a UFO and at what time?
+4) What is the most common appearance of UFO's and for how long is each type seen?
 
-9) Where are UFO sightings most common in Australia?
-10) What is the most common time to see a UFO in Australia and where?
-11) How have the number of UFO sightings differed over time in Australia?
+### UFO Reports in Australia
 
-### Sentiment Analysis
+5) What is the geographic distribution of UFO sightings in Australia?
+6) Based on historical data, what are the most likely places to see a UFO in Australia and at what time?
+7) What is the most common appearance of UFO's and for how long is each type seen?
 
-12) Are comments after a UFO sightings more positive or negative on average?
-13) What are the most commonly used words after a UFO sightings?
-14) What are the commonalities between the profile of people that are involved in UFO sightings?
+### Worldwide Reports Sentiment Analysis
+
+8) Are the comments after a UFO sighting more negative or positive, on average?
+9) What are the 20 most frequently used words in comments after UFO sightings by witnesses?
+10) Are there commonalities between the profiles of people that are involved in UFO sightings?
 
 ## Technologies
 
