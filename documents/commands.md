@@ -15,6 +15,8 @@ conda env list
 
 conda activate ufo_sightings
 
+conda env export > environment.yml
+
 conda deactivate
 
  

@@ -9,7 +9,7 @@ Dataset: Worldwide
 Type of Graph: Line graph
 
 Variables:
-y-axis: frequency of sightings
+y-axis: number of sightings
 x-axis: year
 
 
@@ -34,7 +34,7 @@ Type of Graph: Bar Graph
 Variables:
 y-axis: frequency of sightings
 x-axis: most frequent state (and associated country)
-z-axis: most frequent time (grouped by hours)
+z-axis: most frequent time (grouped by hours) displayed by intensity
 
 
 4) What is the most common appearance of UFO's and for how long is each type seen?
