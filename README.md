@@ -11,6 +11,8 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 ## Results
 
 ![global-ufo-sightings](graphs/global-ufo-sightings.png)
+![top-ufo-places-and-times](graphs/top-ufo-places-and-times.png)
+
 
 ## Dataset Exploration
 
