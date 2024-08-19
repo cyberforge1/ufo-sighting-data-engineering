@@ -40,7 +40,7 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 - PostgreSQL
 - PySpark
 
-## PostgreSQL Schema
+## Database Schema
 
 ```sql
 CREATE TABLE ufo_sightings (
