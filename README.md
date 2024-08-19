@@ -2,7 +2,8 @@
 
 ## Project Overview
 
-This project involves the exploration and analysis of a Kaggle dataset on UFO sightings
+This project develops an ETL pipeline using PySpark to extract, transform, clean, and load a Kaggle dataset on UFO sightings. Data analysis is conducted on a global scale, including sentiment analysis of witness reports, with a specific focus on Australia.
+
 
 ## Links
 
@@ -12,22 +13,32 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 ### Worldwide UFO Reports
 
+#### Data Analysis
+
 1) How does the frequency of UFO sightings differ over time?
 2) What is the geographic distribution of UFO sightings worldwide?
 3) Based on historical data, what are the most likely places to see a UFO and at what time?
 4) What is the most common appearance of UFO's and for how long is each type seen?
 
+#### Sentiment Analysis
+
+8) Are the comments after a UFO sighting more negative or positive, on average?
+9) What are the 20 most frequently used words in comments after UFO sightings by witnesses?
+10) Are there commonalities between the profiles of people that are involved in UFO sightings?
+
 ### UFO Reports in Australia
+
+#### Data Analysis
 
 5) What is the geographic distribution of UFO sightings in Australia?
 6) Based on historical data, what are the most likely places to see a UFO in Australia and at what time?
 7) What is the most common appearance of UFO's and for how long is each type seen?
 
-### Overall Sentiment Analysis
+#### Australian Sentiment Analysis
 
-8) Are the comments after a UFO sighting more negative or positive, on average?
-9) What are the 20 most frequently used words in comments after UFO sightings by witnesses?
-10) Are there commonalities between the profiles of people that are involved in UFO sightings?
+8) Are the comments after a UFO sighting in Australia more negative or positive, on average?
+9) What are the 20 most frequently used words in comments after UFO sightings in Australia by witnesses?
+10) Are there commonalities between the profiles of people that are involved in UFO sightings in Australia?
 
 ## Technologies
 
