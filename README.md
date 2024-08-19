@@ -42,7 +42,7 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
 ## PostgreSQL Schema
 
-``sql
+```sql
 CREATE TABLE ufo_sightings (
     id SERIAL PRIMARY KEY,
     datetime TIMESTAMP,
