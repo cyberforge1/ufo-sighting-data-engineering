@@ -8,6 +8,10 @@ This project develops an ETL pipeline using PySpark to extract, transform, clean
 
 https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
+## Results
+
+![global-ufo-sightings](graphs/global-ufo-sightings.png)
+
 ## Dataset Exploration
 
 ### Worldwide UFO Reports

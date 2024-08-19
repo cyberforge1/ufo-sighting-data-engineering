@@ -18,7 +18,6 @@ def load_data_to_db(csv_file_path):
 
     df = spark.read.option("header", "true").csv(csv_file_path)
 
-    # Ensure datetime, duration_seconds, latitude, and longitude are cast to the correct types
     df = df.withColumn("datetime", to_timestamp(col("datetime"), "yyyy-MM-dd HH:mm:ss"))
     df = df.withColumn("date_posted", to_timestamp(col("date_posted"), "yyyy-MM-dd HH:mm:ss"))
     df = df.withColumn("duration_seconds", col("duration_seconds").cast(FloatType()))
