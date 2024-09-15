@@ -26,12 +26,10 @@ def load_data_to_db(csv_file_path):
     if connection is not None:
         cursor = connection.cursor()
 
-        # Load data into pandas DataFrame
         df = pd.read_csv(csv_file_path)
         df['datetime'] = pd.to_datetime(df['datetime'], errors='coerce')
         df['date_posted'] = pd.to_datetime(df['date_posted'], errors='coerce')
 
-        # Insert DataFrame records into PostgreSQL table
         for i, row in df.iterrows():
             cursor.execute(
                 '''

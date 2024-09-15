@@ -16,10 +16,8 @@ def download_ufo_dataset():
     dataset_path = "nuforc/ufo-sightings"
     file_path = "./data/complete.csv"
 
-    # Download the 'complete.csv' file directly to disk
     api.dataset_download_file(dataset_path, file_name='complete.csv', path="./data")
 
-    # Unzip if needed
     if os.path.exists(file_path + ".zip"):
         with zipfile.ZipFile(file_path + ".zip", 'r') as zip_ref:
             zip_ref.extractall("./data")
@@ -28,7 +26,6 @@ def download_ufo_dataset():
     return file_path
 
 def initial_clean_chunk(chunk: pd.DataFrame) -> pd.DataFrame:
-    # Perform initial cleaning on each chunk
     expected_columns = 11
     chunk = chunk[chunk.apply(lambda x: len(x) == expected_columns, axis=1)]
 
@@ -90,10 +87,8 @@ def extract_and_transform(file_path):
         StructField("longitude", FloatType(), True)
     ])
 
-    # Initialize an empty Spark DataFrame to accumulate the results
     final_spark_df = spark.createDataFrame([], schema=schema)
 
-    # Stream the data in chunks, clean it, and convert to Spark DataFrame
     for chunk in pd.read_csv(file_path, chunksize=10000, on_bad_lines='skip'):
         cleaned_chunk = initial_clean_chunk(chunk)
         spark_chunk = pandas_to_spark(spark, cleaned_chunk, schema)
@@ -104,7 +99,6 @@ def extract_and_transform(file_path):
 def load_data_to_db(df):
     load_dotenv()
 
-    # JDBC connection properties
     jdbc_url = f"jdbc:postgresql://{os.getenv('POSTGRES_HOST')}:{os.getenv('POSTGRES_PORT')}/{os.getenv('POSTGRES_DB')}"
     connection_properties = {
         "user": os.getenv("POSTGRES_USER"),
@@ -116,13 +110,10 @@ def load_data_to_db(df):
     print("Data loaded successfully into the PostgreSQL database")
 
 def main():
-    # Step 1: Download the dataset
     file_path = download_ufo_dataset()
 
-    # Step 2: Process the file in chunks and convert to Spark DataFrame
     spark_df = extract_and_transform(file_path)
 
-    # Step 3: Load the transformed data into the database
     load_data_to_db(spark_df)
 
 if __name__ == "__main__":
