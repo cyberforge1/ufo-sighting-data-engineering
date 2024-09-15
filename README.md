@@ -8,6 +8,15 @@ This project builds an ETL pipeline with PySpark to extract, clean, and load a K
 
 https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 
+## Technologies
+
+- Matplotlib
+- Seaborne
+- Pandas
+- NumPy
+- PostgreSQL
+- PySpark
+
 ## Results
 
 ### Distribution of Dataset
@@ -19,12 +28,3 @@ https://www.kaggle.com/datasets/NUFORC/ufo-sightings
 ### Common Locations & Times
 ![top-ufo-places-and-times](graphs/top-ufo-places-and-times.png)
 
-
-## Technologies
-
-- Matplotlib
-- Seaborne
-- Pandas
-- NumPy
-- PostgreSQL
-- PySpark
